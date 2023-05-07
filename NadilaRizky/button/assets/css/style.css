@@ -1,0 +1,32 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    width: 700px;
+    margin:auto;
+    padding: 40px;
+}
+.btn {
+    background-color: #eeeeee;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: #555555;
+    border-radius: 5px;
+    border-bottom: 4px solid #cccccc;
+}
+.btn:hover {
+    background-color: #dddddd;
+    border-bottom: 4px solid #bbbbbb;
+}
+.btn-green {
+    background-color: #2ecc71;
+    color: #ffffff;
+    border-bottom: 4px solid #15b358;
+}
+.btn-green:hover {
+    background-color: #15b358;
+    border-bottom: 4px solid green;
+}

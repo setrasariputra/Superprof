@@ -1,0 +1,54 @@
+Rillo
+Pontianak, 23 thn
+Teknik Informatika
+Skripsi, Laravel
+
+Laravel (1 sd 10) = 2/3 dibawah basic
+
+Target selesai: Juni Akhir (2 bulan)
+Judul Skripsi: SI Adm Klinik Bersalin
+Database: Mysql, Xampp, Mampp
+
+Bab 3 Flowchart, DFD Data Flow Diagram, ERD Entity Relation Diagram
+
+
+-------------------------------------------------
+
+1. KIA Kesehatan Ibu dan Anak (Persalinan)
+2. Pendaftaran *pendataan si ibu
+3. Pendataan: 
+- Pra (program) kehamilan => 6 bulan
+- Antenatal (Selama kehamilan) => 9 bulan
+- Melahirkan (Bayi) dan Tumbuh Kembang Anak (Batita, Balita) => 5 tahun
+- Program Keluarga Berencana => 
+
+4. Case Rujukan: Klinik tidak mampu handle
+
+
+-------------------------------------------------
+
+
+1 bulan: pembuatan program
+ 
+#1. Belajar La-ravel dari Basic sampai Advance => Project
+per jam 30ribu (3x belajar basic)
+- Class, Function, Method, Template Blade, CORS, Token, Session
+
+
+#2. Belajar berdasarkan project, syarat, kamu harus kasih ke saya step by step setiap pertemuan.
+contoh: 
+1. Belajar bikin login utuk admin
+2. Belajar bikin data pasien
+per jam 60ribu
+
+
+#3. Kamu serahkan project ke saya, nanti sy yg bikin.
+Biaya per project
+
+
+
+
+
+
+
+

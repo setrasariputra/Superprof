@@ -1,0 +1,20 @@
+Nadila Rizky
+Gunadarma Depok - SI
+Kerja e-commerce Marketing
+-----------------------------------------------------------
+Kuliah sd kerja = 2 tahun
+Tahun lalu divisi IT = Ngoding ERP (Database Adm) =  C#
+-----------------------------------------------------------
+Web Programming
+FE =  HTML, CSS, JS (ReactJS / VueJS)
+BE =  NodeJs (Express), SQL
+Komunikasi FE & BE => RestAPI
+-----------------------------------------------------------
+Objek2x yg ada di website
+- Button
+- Menu Horizontal / Vertical
+- Typografi
+- Grid
+- Login Form
+
+Latihan Aplikasi Sederhana (Javascript)

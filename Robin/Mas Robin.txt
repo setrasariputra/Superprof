@@ -1,0 +1,57 @@
+Mas Robin
+Mau Bikin Web (LP) Produk
+HTML-CSS-JS
+Web Static
+Web Dinamis
+Frontend dan Backend
+Frontent = Layout
+Backend = Logical (Database, Payment Gateway)
+
+Frontend (Layout)
+Navigation Bar
+Menu
+
+Perjam 30ribu
+5x = 150rb
+10x = 300rb
+Diawal/Diakhir
+
+BSI / BTPN / Gopay
+
+------------------------------------------
+
+HTML - CSS
+Tools
+Browser = Mozilla, Chrome, Edge
+Coding = VSCode
+Github = Menyimpan hasil kerja coding
+
+-----------------------------------------
+Objek dalam website
+Text, Image, Link
+-----------------------------------------
+Button
+-----------------------------------------
+PHP MVC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

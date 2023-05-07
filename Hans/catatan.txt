@@ -1,0 +1,37 @@
+Untuk bikin website
+domain: www.monsgold.com
+
+Website ecommerce download coin
+HTML, CSS, JS
+PHP, SQL
+
+-------------------------------------------------
+Belajar on project
+-------------------------------------------------
+
+Aplikasi ecommerce monsgold game online
+transaksi pembelian koin game
+70%
+
+[v] Layout User & Admin
+[v] Register Login
+[x] Menampilkan profile picture
+    - Layout
+    - pict default
+    - upload (validasi)
+    - view
+    - merevisi / menghapus profile pict
+[x] Notif box
+    - status pembelian
+[x] Display product
+    - menampilkan data grid (User & Admin)
+
+-------------------------------------------------
+
+
+
+
+
+
+
+
