@@ -1,0 +1,85 @@
+Eko Fristiawanto
+-------------------------------------
+Belajar basic Fullstack
+FE => HTML, CSS, JS
+BE => PHP, SQL
+
+Framework
+FE => Vuejs
+BE => Laravel/Lumen
+
+Tools
+Git, vscode, ps
+-------------------------------------
+Project => HTML,CSS,JS
+Aplikasi Pencatatan Keuangan
+-------------------------------------
+
+1. Layout
+ - Login
+ - Dashboard (Navigasi, konten)
+Target 
+Kamis, Sabtu, Senin
+
+-------------------------------------
+Gitbash, Github
+momon = mon
+-------------------------------------
+
+Microservices
+=> RestAPI
+WebApp
+MobileApp
+
+-------------------------------------
+
+Fullstack = Monolitik
+Microservices = subapp
+
+-------------------------------------
+nodejs = vuejs 3
+nodejs
+nvm => node version machine
+18.13.0
+18.12.1
+16.19.0
+
+composer
+laravel/lumen => 8
+xampp 8.1.12
+
+-------------------------------------
+Backend:
+1. install xampp, create database => 'db_momon';
+2. composer => arahkan folder compiler => c:\xampp8.1\php\php.exe
+
+Frontend:
+1. nodejs
+2. nvm = node version machine
+3. vuejs
+
+Setup RestAPI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

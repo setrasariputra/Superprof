@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.font-body2 {
+    font-size: 14px;
+    line-height: 21px;
+}
+.font-body3 {
+    font-size: 11px;
+    line-height: 17px;
+}
+.font-grey {
+    color: #989898;
+}
+.mon-boxlogin {
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: fit-content;
+    gap: 15px;
+}
+.mon-login-logo {
+    margin: auto;
+    width: 200px;
+    display: block;
+    margin-top: 100px;
+}
+.mon-rowinput {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: 0.5px solid #CDCDCD;
+    border-radius: 10px;
+}
+.mon-colinput {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 100%;
+}
+.mon-colinput input {
+    border: 0;
+    outline: 0;
+    font-size: 14px;
+    line-height: 21px;
+}
+.mon-colinput input::placeholder {
+    color: #CDCDCD;
+    line-height: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.input-icon {
+    width: 44px;
+}
+.button-primary {
+    background-color: #5C76FF;
+    padding: 15px 20px;
+    color: white;
+    text-align: center;
+    border: 0;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+.button-primary:hover {
+    background-color: #DCE2FF;
+    color: #5C76FF;
+}
+.button-secondary {
+    background-color: #F0F0F0;
+    padding: 15px 20px;
+    color: #5C76FF;
+    text-align: center;
+    border: 0;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+.button-secondary a {
+    text-decoration: none;
+}
+.button-secondary:hover {
+        background-color: #DCE2FF;
+        color: #5C76FF;
+}
+.button-chip {
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    gap: 5px;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #989898;
+    border: 0;
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+.button-chip:hover {
+    background-color: #DCE2FF;
+    color: #5C76FF;
+}
+.mon-cta {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: fit-content;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    align-items: stretch;
+    gap: 10px;
+    background-color: white;
+}
+
+
+.mon-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 20px 50px;
+    border-bottom: 1px solid #F0F0F0;
+    height: 10vh;
+}
+.mon-user-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    gap: 10px;
+}
+.avatar {
+    height: 30px;
+}
+.mon-main-desktop {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1px;
+    background-color: #F0F0F0;
+    height: max-content;
+}
+.right-area {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    gap: 1px;
+    background-color: #F0F0F0;
+    overflow-y: scroll;
+    height: 90vh;
+}
+.left-area {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    gap: 1px;
+    background-color: #F0F0F0;
+    overflow-y: scroll;
+    height: 90vh;
+}
+.fixed-header {
+    position: sticky;
+    top: 0;
+}
+.mon-column {
+    background-color: #F0F0F0;
+    gap: 1px;
+    display: flex;
+    flex-direction: row; 
+    align-items: stretch;
+    width: 100%;
+}
+.mon-row-padded {
+    background-color:white;
+    gap: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    padding: 10px 50px;
+}
+
+.rekening {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 10px 50px;
+    gap: 10px;
+}
+.title-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.grid-rekening {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    width: fit-content;
+}
+.card-rekening {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #DCE2FF;
+}
+.add-rekening {
+    display: flex;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    align-items: center;
+}
+.add-rekening img {
+    width: 16px;
+}
+#TotalSaldo {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    gap: 10px;
+    padding: 20px 0px;
+    border-bottom: 1px solid #f0f0f0;
+}
+#ArusKas {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    border-bottom: 1px solid #f0f0f0;
+    gap: 10px;
+}
+#StrukturPengeluaran {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    background-color: white;
+    padding: 20px 0px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.category-icon {
+    width: 32px;
+}
+.mon-space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.area-grow {
+    flex-grow: 1;
+}
+#TransactionRecords {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: white;
+}
+.record-row {
+    display: flex;
+    flex-direction: column;
+}
+.mon-create-transaction {
+    background-color: white;
+}
+.create-transaction-header {
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+}
+.transaction-value-input {
+    height: 150px;
+    background-color: #F0F0F0;
+    font-size: 24px;
+    width: 100%;
+    text-align: right;
+    border: 0;
+    outline: 0;
+}
+.create-transaction-details {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.select-rekening {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: #DCE2FF;
+    border-radius: 10px;
+}
+.select-category {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: #F6E3FF;
+    border-radius: 10px;
+}
+.transaction-detail-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

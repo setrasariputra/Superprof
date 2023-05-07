@@ -1,0 +1,52 @@
+Pengenalan setup environmn
+CI instalasi
+
+Codeigniter
+- PHP, SQL, Server Apache/Nginx
+
+Laravel
+versi 10 => 8.2
+
+php 8.1
+
+CI 7.4
+
+-------------------------------------
+CodeIgniter => Fullstack, RestAPI
+
+Fullstack = FE & BE di satu struktur => 1 programmer
+RestAPI = FE & BE terpisah => 2 programmer
+-----------------------------------------
+
+Pattern => 
+1. Struktural => hirarki atas kebawah
+2. MVC => Model View Controller
+Model =  bertangngung jawab untuk prosess Logical (PHP, SQL)
+View = Untuk visual tampilan (HTML, CSS, JS, PHP)
+Controller = untuk routing => url address
+
+https://adeyan.com/ = base routing
+https://adeyan.com/profile = profile routing
+https://adeyan.com/login = login routing
+
+module => url_rewrite
+
+-----------------------------------------
+PHP Basic
+
+Malam jam 10 sd 11
+Besok Sore jam 15.30 - 16.30
+Besok Siang 13.00
+
+
+Gudang ERP Company Bisnis
+-----------------------------------------
+KKP, Keuangan 
+Tender 200
+
+
+
+
+
+
+

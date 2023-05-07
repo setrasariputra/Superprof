@@ -1,0 +1,46 @@
+http://localhost/api/v1/login
+http://localhost:8000/api/v2/login
+
+
+
+php artisan make:model User_payment_info -fmc
+
+ 
+RestAPI view postman
+
+output backend => JSON
+
+---------------------------------------------------------------
+
+FrontEnd
+- Form (email & password)
+- Request Form submit => http://localhost:8000/api/v1/login
+- JSON Data
+
+Backend
+- Response output JSON Data
+- Login berhasil => API Token expired sehari/seminggu
+- Jika Token expired => Login lagi
+
+
+---------------------------------------------------------------
+- Install Vue & Lumen
+- Router Vue & Lumen
+- Setup JWT API Token
+- Login User -> API Token
+- Dashboard
+- CRUD (Create Read Update Delete)
+- ....
+- ....
+- ....
+
+---------------------------------------------------------------
+Server Apache
+Server NginX = CaseSensitive
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+Alle, bekasi, 19thn
+kuliah Binus Kemanggisan
+----------------------------------------------
+Semester 5
+Belajar Laravel 
+- Blade, Bootstrap, MysQL
+- Jquery, Javascript Vanilla
+
+Frontend => Bootstrap, Javascript
+----------------------------------------------
+Biaya per pertemuan 30ribu per jam
+----------------------------------------------
+Target tugas kampus
+Todo List UI/UX
+
+Laravel => .env, provider, config

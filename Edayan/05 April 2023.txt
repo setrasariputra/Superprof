@@ -1,0 +1,21 @@
+05 April 2023
+Codeigniter 4
+- Instalasi Composer
+- Instalasi VSCode
+- Instalasi Codeigniter
+  # setup requiremnt
+  # install
+- Jalankan server
+
+Latihan Ngoding
+- Controller - View - Model
+- Routing = alamat url
+- View
+
+Aplikasi Posting Artikel Sederhana
+http://localhost:8080 = Homebase
+http://localhost:8080/login
+http://localhost:8080/dashboard
+http://localhost:8080/users
+http://localhost:8080/posts
+http://localhost:8080/categories

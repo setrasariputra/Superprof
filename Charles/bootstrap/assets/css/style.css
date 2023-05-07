@@ -1,0 +1,57 @@
+body {
+    background-color: #121212;
+}
+a {
+    text-decoration: none;
+}
+.news-main-menu {
+    background-color: #2b3035;
+}
+.main-banner {
+    width: 100%;
+    height: 300px;
+    background-color: #262626;
+    background-image: url('../img/pertanian-featured.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.post-news-style-01 {
+
+}
+.post-news-style-01 .news-img {
+    height: 400px;
+    overflow: hidden;
+}
+.post-news-style-01 .news-title {
+    width: 100%;
+    height: 150px;
+    background-color: #000000;
+    padding: 20px;
+    opacity: 0.7;
+    margin-top: -150px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.post-news-style-01 .news-title:hover {
+    opacity: 0.8;
+}
+
+.post-news-style-02 {
+    padding: 20px;
+}
+.post-news-style-02:hover {
+    
+}
+.post-news-style-02 .news-img {
+    max-width:130px;
+    height: 100px;
+}
+.post-news-style-02 .news-title {
+    color: #ffffff;
+}
+.hover-yellow {
+    color: #ffffff;
+}
+.hover-yellow:hover {
+    color: #f8ac3c;
+}
