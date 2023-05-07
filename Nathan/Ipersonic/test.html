@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://www.ipersonic.net/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="https://www.ipersonic.net/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <title>Tes Kepribadian Gratis dari Ipersonic</title>
+</head>
+
+<body>
+    <!-- Start Topbar -->
+    <div class="topbar theme-grey">
+        <div class="wrap">
+            <div class="container-flex">
+                <div class="column-left-50">
+                    <div class="logo">
+                        <a href="index.html"><img width="100px" src="assets/img/logo.png" /></a>&nbsp;&nbsp;
+                        <a href="test.html" class="btn btn-red">Mulai Tes &#9658;</a>
+                    </div>
+                </div>
+                <div class="column-right-50">
+                    <div class="menu">
+                        <ul>
+                            <li>
+                                <a href="#">Tipe Kepribadian</a>
+                                <ul>
+                                    <li><a href="#">Idealis Penyelaras</a></li>
+                                    <li><a href="#">Idealis Terlibat</a></li>
+                                    <li><a href="#">Pemikir Dinamis</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Bahasa Indonesia</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start Topbar -->
+
+    <!-- Start Content -->
+    <div class="content">
+        <div class="wrap">
+            <h1 class="header-title">Tes kepribadian</h1>
+            <hr />
+            <!-- <div class="question-tab">
+                <ul>
+                    <li><a href="#" class="active">Langkah 1</a></li>
+                    <li><a href="#">Langkah 2</a></li>
+                    <li><a href="#">Langkah 3</a></li>
+                    <li><a href="#">Langkah 4</a></li>
+                </ul>
+            </div> -->
+
+            <div class="question-options" id="display_q_options"></div>
+        </div>
+    </div>
+    <!-- Start content -->
+
+    <!-- Start Footer -->
+    <div class="footer">
+        <div class="wrap">
+            <small class="text-muted">
+                © iPersonic&nbsp;&nbsp;<a href="#">Personality Test</a>&nbsp;&nbsp;<a href="#">Career
+                    Test</a>&nbsp;&nbsp;<a href="#">Persönlichkeitstest</a>&nbsp;&nbsp;<a
+                    href="#">Berufstest</a>&nbsp;&nbsp;<a href="#">Privacy Policy</a>&nbsp;&nbsp;<a href="#">Felicitas
+                    Heyne</a>&nbsp;&nbsp;<a href="#">Impressum</a>&nbsp;&nbsp;<a href="#">Help &
+                    Contact</a>&nbsp;&nbsp;iPersonic supports&nbsp;&nbsp;<a href="#">Audiopedia</a>
+            </small>
+        </div>
+    </div>
+    <!-- Start footer -->
+
+    <script>
+        var answer = "";
+        const q_options = [{
+                1: "Saya agak ramah, membuka hati dan saya suka berada bersama-sama dengan orang lain.",
+                2: "Saya membutuhkan banyak waktu untuk sendirian dan agak hati-hati untuk memulai hubungan baru.",
+            },
+            {
+                1: "Saya lebih suka bekerja praktis, menghasilkan hasil yang nyata.",
+                2: "Saya lebih suka bekerja secara teori, mengembangkan ide-ide dan konsep baru.",
+            },
+            {
+                1: "Saya pintar dalam hal analisis dan logika dan ketika saya ragu, saya membiarkan diri saya dipandu oleh otak saya.",
+                2: "Saya sangat sensitif dan emosional dan bila ragu, aku membiarkan diriku dibimbing oleh hati saya.",
+            },
+            {
+                1: "Saya orang yang fleksibel dan spontan, kadang-kadang agak kacau.",
+                2: "Saya orang yang handal dan terorganisir dengan baik. Saya lebih memilih untuk merencanakan masa depan."
+            }
+        ];
+
+        const result = {
+            '2222': '1.html',
+            '1222': '2.html',
+            '1212': '3.html',
+            '1211': '4.html',
+            '1221': '5.html',
+            '1121': '6.html',
+            '1122': '7.html',
+            '1112': '8.html',
+            '1111': '9.html',
+            '2111': '10.html',
+            '2121': '11.html',
+            '2122': '12.html',
+            '2112': '13.html',
+            '2212': '14.html',
+            '2211': '15.html',
+            '2221': '16.html',
+        };
+
+        function showQuestion(totalAnswer, q_options) {
+            const displayQOptions = document.querySelector("#display_q_options");
+
+            // display stepAnswer
+            let displayOptions = "<div class='question-tab'>";
+            displayOptions += "<ul>";
+            for (let x = 1; x <= q_options.length; x++) {
+                if((totalAnswer+1) == x) {
+                    displayOptions += "<li><a href='#' class='active'>Langkah " + x + "</a></li>";
+                }else{
+                    displayOptions += "<li><a href='#'>Langkah " + x + "</a></li>";
+                }
+            }
+            displayOptions += "</ul>";
+            displayOptions += "</div>";
+
+            displayOptions += "<br />";
+
+            // display optionAnswer
+            displayOptions += "<div class='row'>";
+            for (let x = 1; x <= 2; x++) {
+                displayOptions += "<div class='col question-option-box'>";
+                displayOptions += "<p>" + q_options[totalAnswer][x] + "</p>";
+                displayOptions += "<br /><br />";
+                displayOptions +=
+                    "<a href='#' class='btn btn-red btn-lg choose-answer' data=" + x +
+                    ">&#9658; Hal ini berlaku untuk saya</a>";
+                displayOptions += "</div>";
+            }
+            displayOptions += "</div>";
+
+            displayQOptions.innerHTML = displayOptions;
+
+            const answerButtons = document.querySelectorAll(".choose-answer");
+            answerButtons.forEach(button => {
+                button.addEventListener("click", function () {
+                    let value = button.getAttribute("data");
+                    answer = answer + value;
+                    let totalAnswer = answer.length;
+                    if (totalAnswer < q_options.length) {
+                        startQuestion(totalAnswer);
+                    } else {
+                        displayQOptions.innerHTML =
+                            "<h2>Terima kasih telah mengisi kuesioner ini!</h2>";
+
+                        const resultPage = result[answer];
+
+                        displayQOptions.innerHTML += "<br /><br />";
+                        displayQOptions.innerHTML += "<a href='"+resultPage+"' class='btn btn-green'>Lihat Hasilnya &#9658;</a>";
+
+                    }
+                });
+            });
+        }
+
+        function startQuestion(totalAnswer) {
+            showQuestion(totalAnswer, q_options);
+        }
+
+        startQuestion(answer.length);
+    </script>
+</body>
+
+</html>
