@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/library/bootstrap-5.3.0-alpha2-dist/css/bootstrap.min.css" />
+    <link href="assets/library/fontawesome-free-6.4.0-web/css/fontawesome.min.css" rel="stylesheet">
+    <link href="assets/library/fontawesome-free-6.4.0-web/css/brands.min.css" rel="stylesheet">
+    <link href="assets/library/fontawesome-free-6.4.0-web/css/solid.min.css" rel="stylesheet">    
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/game.css" />
+    <title>Tamagotchi</title>
+</head>
+<body>
+    <div class="game">
+        <div class="forest">
+            <div class="button-close">
+                <a href="opening.html"><img src="assets/img/button-close.png" /></a>
+            </div>
+            <div class="container">
+                <br />
+                <div class="activity-bar">
+                    <div class="row">
+                        <div class="col-6">
+                            <div id="showMakanBar"></div>
+                        </div>
+                        <div class="col-6">
+                            <div id="showTidurBar"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div id="showGameBar"></div>
+                        </div>
+                        <div class="col-6">
+                            <div id="showObatBar"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <canvas id="gameArea" width="800" height="100"></canvas>
+            <!-- <canvas id="jumpCanvas" width="800" height="400"></canvas> -->
+            <div class="platformer" id="showPlatformer"></div>
+        </div>
+        <div class="soil">
+            <div class="playbuttons">
+                <div class="boxbutton" id="clickMakan" title="Makan">
+                    <i class="fa-solid fa-utensils"></i>
+                </div>
+                <div class="boxbutton" id="clickTidur" title="Tidur">
+                    <i class="fa-solid fa-bed"></i>
+                </div>
+                <div class="boxbutton" id="clickGame" title="Game">
+                    <i class="fa-solid fa-gamepad"></i>
+                </div>
+                <div class="boxbutton" id="clickObat" title="Obat">
+                    <i class="fa-solid fa-briefcase-medical"></i>
+                </div>
+            </div>
+            <div class="days text-white"></div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/library/bootstrap-5.3.0-alpha2-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/library/jquery/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="assets/js/game.js"></script>
+    <script type="text/javascript" src="assets/js/index.js"></script>
+</body>
+
+</html>

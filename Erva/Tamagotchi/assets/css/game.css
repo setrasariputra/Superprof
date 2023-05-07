@@ -1,0 +1,14 @@
+canvas {
+    position:absolute;
+    bottom:0px;
+    display:none;
+  }
+
+  #showPlatformer {
+    transform: translateX(-25%);
+    transition: transform 0.3s ease-out, bottom 0.3s ease-out;
+  }
+  #showPlatformer.jumping {
+    bottom: 100px;
+    transform: translateX(-25%) translateY(-50px);
+  }

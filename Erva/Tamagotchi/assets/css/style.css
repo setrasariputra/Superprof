@@ -1,0 +1,143 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.game {
+  width: 800px;
+  margin: auto;
+  margin-top: 20px;
+  border: 5px solid #4a2b00;
+  border-radius: 10px;
+}
+.forest {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-image: url("../img/forest.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.soil {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-image: url("../img/soil.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.platformer {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  bottom: 0px;
+  left: 35%;
+}
+.activity-bar {
+  width: 70%;
+  height: 100px;
+  margin: auto;
+}
+.button-close {
+    position: absolute;
+    width:70px;
+    height: 70px;
+    right:0;
+    cursor:pointer;
+}
+.button-close img {
+    width: 100%;
+}
+.greeting {
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 1;
+}
+.days {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 16px;
+  text-align: right;
+}
+.click-activity {
+  cursor: pointer;
+  padding: 5px;
+}
+.click-activity:hover {
+  color: red;
+}
+
+.playbuttons {
+  display: flex;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.boxbutton {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #333333;
+  margin-right: 5px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.boxbutton:hover {
+  background-color: orange;
+}
+.progress-container {
+  width: 100%;
+  height: 15px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+.progress-value {
+  width: 100%;
+  height: 15px;
+  background-color: aqua;
+  border-radius: 5px;
+  margin-top: -15px;
+}
+
+.button-opening {
+    display: flex;
+}
+.button-left {
+    width: 50%;
+    text-align: right;
+    margin-top:-20px;
+}
+.button-right {
+    width: 50%;
+    text-align: left;
+    margin-top:-20px;
+}
+.button-start-new-game {
+    width: 200px;
+    height: 112px;
+    background-image: url("../img/button-start-new-game.png");
+    border: none;
+    background-color: transparent;
+}
+.button-start-new-game:hover {
+    background-position: 0px -112px;
+}
+.button-lanjutkan-game {
+    display: inline-block;
+    width: 200px;
+    height: 112px;
+    background-image: url("../img/button-lanjutkan-game.png");
+    border: none;
+    background-color: transparent;
+}
+.button-lanjutkan-game:hover {
+    background-position: 0px -112px;
+}
+.btn-red:hover {
+  background-color: #ff4e00;
+  color: #ffffff;
+}
+#button-resume-game {
+  display: none;
+}

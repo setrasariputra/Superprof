@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Objek Lompat</title>
+    <style>
+      canvas {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="platformerCanvas" width="800" height="300"></canvas>
+    <script>
+      // Inisialisasi variabel
+      var canvas = document.getElementById("platformerCanvas");
+      var ctx = canvas.getContext("2d");
+      var x = canvas.width / 2;
+      var y = canvas.height - 50;
+      var dy = 0;
+      var gravity = 0.1;
+      var jumping = false;
+      var jumpPower = 6;
+      var radius = 40;
+
+      // Fungsi menggambar objek
+      function drawObject() {
+        ctx.beginPath();
+        ctx.arc(x, y, radius, 0, Math.PI * 2);
+        ctx.fillStyle = "#0095DD";
+        ctx.fill();
+        ctx.closePath();
+      }
+
+      // Fungsi update posisi objek
+      function updatePosition() {
+        if (jumping) {
+          dy -= jumpPower;
+          if (dy <= 0) {
+            jumping = false;
+          }
+        } else {
+          dy += gravity;
+        }
+        y += dy;
+        if (y + radius >= canvas.height) {
+          y = canvas.height - radius;
+          dy = 0;
+        }
+      }
+
+      // Fungsi menggambar objek dan update posisi objek setiap frame
+      function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        drawObject();
+        updatePosition();
+        requestAnimationFrame(draw);
+      }
+
+      // Event listener saat tombol "Space" ditekan
+      document.addEventListener("keydown", function (event) {
+        if (event.code === "Space" && !jumping) {
+          jumping = true;
+          event.preventDefault();
+        }
+      });
+
+      draw(); // Memulai animasi
+    </script>
+  </body>
+</html>
