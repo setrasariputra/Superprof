@@ -1,0 +1,37 @@
+body {
+    background-color: #bfd1d3;
+}
+.title {
+    margin:auto;
+    width: 200px;
+    background-color: #2cc4b0;
+    padding: 20px;
+    color:#ffffff;
+    text-align: center;
+}
+.card {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+.card .icon {
+    text-align: center;
+    font-size: 50px;
+}
+.card .name {
+    text-align: center;
+    font-size: 30px;
+    color: #2cc4b0;
+}
+.card .meaning {
+    text-align: center;
+    font-size: 16px;
+    color: #aaaaaa;
+    margin-top: 20px;
+}
+.flex-content {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}

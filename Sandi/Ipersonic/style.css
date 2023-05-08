@@ -1,0 +1,34 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.wrap {
+    width: 1200px;
+    margin:auto;
+}
+.topmenu {
+    background-color: #f7f7f7;
+    padding: 10px;
+}
+.topmenu img.logo {
+    height:20px;
+}
+a.btn-red {
+    background-color: #d9534f;
+    color: #ffffff;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+/* responsive */
+@media screen and (max-width: 1200px) {
+    .wrap {
+        width: 80%;
+    }    
+}
