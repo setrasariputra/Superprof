@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fontawesome/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fontawesome/css/solid.min.css"
+    />
+    <title>Navbar</title>
+  </head>
+  <body>
+    <section class="wrap">
+      <div class="navbar">
+        <div class="hamburger-menu" id="hamburger-menu" onclick="mobileMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul id="list-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Clients</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <div id="testing"></div>
+
+    <script>
+      function mobileMenu() {
+        const eleHamMenu = document.querySelector("#hamburger-menu");
+        const listMenu = document.querySelector("#list-menu");
+        if (listMenu.style.display === "block") {
+          listMenu.style.display = "none";
+        } else {
+          listMenu.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
