@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.react-form {
+    width: 300px;
+    padding: 20px;
+}
+.react-form .title {
+    color: white;
+    font-weight: normal;
+    text-align: center;
+}
+.react-form .submit-button {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px 40px 10px 40px;
+    border: none;
+    cursor:pointer;
+    border-radius: 3px;
+    font-size: 20px;
+}
+.react-form .input-container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.react-form .input-form {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background-color: cadetblue;
+    border: 1px solid white;
+    color:white;
+    border-radius: 3px;
+}
